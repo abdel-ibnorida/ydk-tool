@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ydk Tool</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Ydk Tool
+        </h1>
+        <input type="file" id="ydkInput" accept=".ydk">
+        <label id="label-error"></label>
+        <div id="spinner" class="spinner" style="display: none;"></div>
+        
+        <div id="result-container">
+          <pre id="result"></pre>
+          <button id="copy-button">📋 Copia</button>
+        </div>
+
+        <label id="cards-number"></label>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
