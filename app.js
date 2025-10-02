@@ -39,7 +39,7 @@ function handleYdk(event) {
                     .join("\n");
 
                 // Mostra il totale all'utente
-                showMessage(label_Ncards, `Totale carte nel deck: ${totale}`, "success");
+                showMessage(label_Ncards, `Totale carte: ${totale}`, "success");
             })
             .catch(err => {
                 console.error(err);
